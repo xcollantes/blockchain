@@ -55,6 +55,8 @@ for i in range(0, num_of_blocks_to_add):
   previous_block = block_to_add
   # Tell everyone about it!
   print ("Block #{} has been added to the blockchain!".format(block_to_add.index))
+  print ("Block cointaining: " + block_to_add.data)
   print ("Hash: {}\n".format(block_to_add.hash))
+  
 
   
