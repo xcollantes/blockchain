@@ -30,6 +30,8 @@ class Block:
     self.previous_hash = previous_hash
     self.hash = self.hash_block()
 
+    print ("TEST: " + str(index) + " " + str(timestamp) + " " + str(data) + " " + str(previous_hash))
+
   
   def hash_block(self):
     sha = hasher.sha256()
